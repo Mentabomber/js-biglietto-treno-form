@@ -11,57 +11,58 @@
 <body>
     <main>
 
-    <!-- input ticket infos section  -->
+        <!-- input ticket infos section  -->
 
-    <section>
-        <form action="">
-            <input type="name" id="nameId">
-            <input type="number" id="kmId">
-            <select name="Età" id="ageId">
-                <option value="Minorenne">
-                    Minorenne
-                </option>
-                <option value="Maggiorenne">
-                    Maggiorenne
-                </option>
-                <option value="Over 65">
-                    Over 65
-                </option>
-            </select>
-            <input type="button" id="buttonId" value="Genera">
-        </form>
-    </section>
+        <section>
+            <form id="form">
+                <input type="name" id="nameId">
+                <input type="number" id="kmId">
+                <select name="Età" id="ageId">
+                    <option value="Minorenne">
+                        Minorenne
+                    </option>
+                    <option value="Maggiorenne">
+                        Maggiorenne
+                    </option>
+                    <option value="Over 65">
+                        Over 65
+                    </option>
+                </select>
+                <input type="button" id="buttonId" value="Genera">
+                <input type="button" id="buttonIdCancel" value="Annulla">
+            </form>
+        </section>
 
-    <!-- output ticket infos section  -->
+        <!-- output ticket infos section  -->
 
-    <section id="ticket" class="ticket-hidden">
-        <div class="container">
-            <h2>DETTAGLIO PASSEGGERI</h2>
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">NOME PASSEGGERO Jon Snow</th>
-                    <th scope="col">Offerta</th>
-                    <th scope="col">Carrozza</th>
-                    <th scope="col">Codice CP</th>
-                    <th scope="col">Costo biglietto</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row"> </th>
-                    <td>Biglietto Standard</td>
-                    <td>5</td>
-                    <td>92911</td>
-                    <td id="ticketPrice">1</td>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
-    </section>
+        <section id="ticket" class="ticket-hidden">
+            <div class="container">
+                <h2>DETTAGLIO PASSEGGERI</h2>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">NOME PASSEGGERO Jon Snow</th>
+                        <th scope="col">Offerta</th>
+                        <th scope="col">Carrozza</th>
+                        <th scope="col">Codice CP</th>
+                        <th scope="col">Costo biglietto</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row"> </th>
+                        <td>Biglietto Standard</td>
+                        <td>5</td>
+                        <td>92911</td>
+                        <td id="ticketPrice">1</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-    <script type="text/javascript" src="js/main.js">
-    </script>
-     </main>
+        <script type="text/javascript" src="js/main.js">
+        </script>
+    </main>
 </body>
 </html>

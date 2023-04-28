@@ -4,7 +4,9 @@
 /* main  */
 
 /* input  */
-
+#form{
+    
+}
 #nameId{
 
 }
@@ -21,11 +23,16 @@
 
 }
 
+#buttonIdCancel{
+
+}
+
 #ticketPrice{
 
 }
+
 #ticket{
-    
+
 }
 .ticket-hidden{
     display: none;
