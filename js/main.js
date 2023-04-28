@@ -33,22 +33,23 @@ buttonElement.addEventListener('click',
 
         if(userAge === "Minorenne"){
             ticketPriceDiscounted = (ticketPrice - ((ticketPrice * 20) / 100));
-            message = "Il costo del vostro biglietto è di: " + ticketPriceDiscounted.toFixed(2);
+            message = "Il costo del vostro biglietto è di: " + ticketPriceDiscounted.toFixed(2) + "€";
             console.log(ticketPriceDiscounted);
         
         }
         else if(userAge === "Over 65"){
             ticketPriceDiscounted = (ticketPrice - ((ticketPrice * 40) / 100));
-            message = "Il costo del vostro biglietto è di: " + ticketPriceDiscounted.toFixed(2);
+            message = "Il costo del vostro biglietto è di: " + ticketPriceDiscounted.toFixed(2) + "€";
             console.log(ticketPriceDiscounted);
         }
         else{
-            message = "Il costo del vostro biglietto è di: " + ticketPrice.toFixed(2);
+            message = "Il costo del vostro biglietto è di: " + ticketPrice.toFixed(2) + "€";
             console.log(ticketPrice);
         }
 
         console.log(message);
     }
+    
 
 
 );

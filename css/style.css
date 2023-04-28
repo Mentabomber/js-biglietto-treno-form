@@ -1,10 +1,5 @@
 /* regole generali */
 
-*{
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
 
 /* main  */
 
@@ -23,5 +18,13 @@
 }
 
 #buttonId{
-    
+
+}
+
+#ticketPrice{
+
+}
+
+#ticket-hidden{
+    display: none;
 }
