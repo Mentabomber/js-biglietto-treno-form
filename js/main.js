@@ -50,8 +50,8 @@ buttonElement.addEventListener('click',
         }
 
         console.log(message);
-        customerTicket = document.getElementById("ticket-hidden");
-        customerTicket.classList.add("ticket-shown");
+        customerTicket = document.getElementById("ticket");
+        customerTicket.className("ticket-shown");
     }
 
    
