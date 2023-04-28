@@ -25,6 +25,10 @@
 
 }
 
-#ticket-hidden{
+.ticket-hidden{
     display: none;
+}
+
+.ticket-shown{
+    display: block;
 }
