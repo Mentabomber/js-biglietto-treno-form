@@ -31,13 +31,13 @@ buttonElement.addEventListener('click',
         ticketPrice = (kmPercorso * kmPricing);
         console.log(ticketPrice);
 
-        if(userAge < 18){
+        if(userAge === "Minorenne"){
             ticketPriceDiscounted = (ticketPrice - ((ticketPrice * 20) / 100));
             message = "Il costo del vostro biglietto è di: " + ticketPriceDiscounted.toFixed(2);
             console.log(ticketPriceDiscounted);
         
         }
-        else if(userAge >= 65){
+        else if(userAge === "Over 65"){
             ticketPriceDiscounted = (ticketPrice - ((ticketPrice * 40) / 100));
             message = "Il costo del vostro biglietto è di: " + ticketPriceDiscounted.toFixed(2);
             console.log(ticketPriceDiscounted);
