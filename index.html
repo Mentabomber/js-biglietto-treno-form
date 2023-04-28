@@ -15,21 +15,48 @@
 
         <section>
             <form id="form">
-                <input type="name" id="nameId">
-                <input type="number" id="kmId">
-                <select name="Età" id="ageId">
-                    <option value="Minorenne">
-                        Minorenne
-                    </option>
-                    <option value="Maggiorenne">
-                        Maggiorenne
-                    </option>
-                    <option value="Over 65">
-                        Over 65
-                    </option>
-                </select>
-                <input type="button" id="buttonId" value="Genera">
-                <input type="button" id="buttonIdCancel" value="Annulla">
+                <div class="container">
+                    <div class="row justify-content-center text-center py-5">
+                        <div class="col">
+                            <span>Nome Cognome</span>
+                        </div>
+                        <div class="col">
+                            <span>Km da percorrere</span>
+                        </div>
+                        <div class="col">
+                            <span>Fascia d'età</span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center text-center py-5">
+                        <div class="col">
+                            <input type="name" id="nameId">
+                        </div>
+                        <div class="col">
+                            <input type="number" id="kmId">
+                        </div>
+                        <div class="col">
+                            <select name="Età" id="ageId">
+                                <option value="Maggiorenne">
+                                    Maggiorenne
+                                </option>
+                                <option value="Minorenne">
+                                    Minorenne
+                                </option>
+                                <option value="Over 65">
+                                    Over 65
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-3 text-end">
+                            <input type="button" id="buttonId" value="Genera">
+                        </div>
+                        <div class="col-3">
+                            <input type="button" id="buttonIdCancel" value="Annulla">
+                        </div>
+                    </div>
+                </div>
             </form>
         </section>
 

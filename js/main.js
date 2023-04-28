@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 // Variabili globali
 let kmPercorso, userName, userAge, ticketPrice, message, buttonElement, customerTicket;
 const kmPricing = 0.21;
@@ -17,6 +7,8 @@ buttonElement = document.getElementById("buttonId");
 buttonElementCancel = document.getElementById("buttonIdCancel")
 
 // all'apertura del sito web ci sono 3 campi compilabili, nome, numero kilometri da percorrere e selezione range età. l'utente riempie i tre campi e preme il bottone Genera che calcola i kilometri da fare e applica lo sconto in base al range d'età selezionato e quindi infine crea il biglietto.
+
+
 
 buttonElement.addEventListener('click',
 
