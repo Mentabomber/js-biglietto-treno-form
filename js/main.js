@@ -46,6 +46,7 @@ buttonElement.addEventListener('click',
         customerTicket.className = "ticket-shown";
 
         document.getElementById("ticketPrice").innerHTML = message;
+        document.getElementById("passengerName").innerHTML = "NOME PASSEGGERO " + userName ;
     }
 
    

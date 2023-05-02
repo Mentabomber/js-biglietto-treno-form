@@ -5,7 +5,11 @@
 
 /* input  */
 #form{
-    
+    padding: 10px;
+    border: solid black 1px;
+    margin-bottom: 10px;
+    background-color: brown;
+    color: white;
 }
 #nameId{
 
@@ -32,7 +36,14 @@
 }
 
 #ticket{
+    padding: 10px;
+    border: solid black 1px;
+    background-color: brown;
+    
+}
 
+#passengerName{
+    
 }
 .ticket-hidden{
     display: none;
